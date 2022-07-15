@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<!--font karla-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<!--font Staatliches-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<!--font Secular One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<!--icons-->
+    <script
+    src="https://kit.fontawesome.com/8657029935.js"
+    crossorigin="anonymous"></script>
+    <title>Portfolio-about</title>
+</head>
+<body>
+
+<!--navigation-->
+<nav>
+    <span class="name">YOONJIN IM
+        <div class="circles">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+        </div>
+    </span>
+    <ul class="menu" id="navbar" >
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SKILLS</a></li>
+        <li><a href="#">WORKS</a></li>
+        
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </ul>
+</nav>
+
+<!--main-->
+    <section class="about">
+        <div class="contact">
+            <div class="box"></div>
+            
+            <img src="image/Myphoto.png" alt="" class="myphoto" >
+            
+            <div class="detail">
+                <div class="myContact">
+                    <p>yoonjinim90@gmail.com</p>
+                    <p>571.244.3724</p>
+                    <p>behance.net/yoonj</p>
+                </div>
+
+                <p class="line"><p class="hello">Hello,</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="introd">
+                <span class="a">"</span>
+                <p class="mystory">Respect the viewpoints and values ​​of others, and further communicate continuously to analyze and define the relationship between people and designs, and try to express them in a harmonious design.
+                <br><br>I want to become a designer who always develops and broadens the spectrum by showing  intuitively in various applied media by utilizing my abilities in various design fields.
+                <br><br>I am devoting myself day by day in anticipation of new possibilities in design that can arise from interest in various fields.</p>
+                <span class="b">"</span>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        TweenMax.allFrom('.myphoto', 2,{
+            delay: .7,
+            opacity: 0,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.allFrom('.box', 2,{
+            delay: .7,
+            y: 1000,
+            ease: Circ.easeInOut
+        })
+ 
+        TweenMax.allFrom('.myContact', 2,{
+            delay: .6,
+            x: 1000, y:1000,
+            ease: Circ.easeInOut
+        })
+ 
+        TweenMax.allFrom('.hello', 2,{
+            delay: .9,
+            y: 1000,
+            ease: Circ.easeInOut
+        })
+ 
+        TweenMax.allFrom('.line', 2,{
+            delay: 2,
+            y: 1000,
+            ease: Circ.easeInOut
+        })
+ 
+        TweenMax.allFrom('.mystory', 2,{
+            delay: .7,
+            x: 1200,
+            ease: Circ.easeInOut
+        })
+ 
+        TweenMax.allFrom('.a , .b', 2,{
+            delay: .6,
+            x: 1200,
+            ease: Circ.easeInOut
+        })
+    </script>
+ 
+
+
+    <section class="container-skills" id="skills">
+        <div class="row">
+            <div class="col">
+                <ul class="education"><h1>Education</h1>
+                    <li class="degree" id="edu1">Associate in Fine Art
+                        <br><span class="college">Northern Virginia Community College</span>
+                        <br><span class="dates">May 2010- May 2013</span>
+                    </li>
+
+                    <li class="degree" id="edu2">Bachelor in Fine Art
+                        <br><span class="college">Corcoran School of the Arts & Design</span>
+                        <br><span class="dates">Aug 2013 - May 2015</span>
+                    </li>
+
+                    <li class="degree" id="edu3">UX/UI Design
+                        <br><span class="college">Goerge Washington University Bootcamp</span>
+                        <br><span class="dates">Aug 2022</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <span class="software"><h1>Software Skills</h1>
+                    <p class="bar-title">Figma</p>
+                    <div class="bar">
+                        <div class="bar-inner1"></div>
+                    </div>
+
+                    <p class="bar-title">Abode Xd</p>
+                     <div class="bar">
+                        <div class="bar-inner2"></div>
+                    </div>
+
+                    <p class="bar-title">Photoshop</p>
+                    <div class="bar">
+                        <div class="bar-inner3"></div>
+                    </div>
+
+                    <p class="bar-title">Illustrator</p>
+                    <div class="bar">
+                        <div class="bar-inner4"></div>
+                    </div>
+
+                    <p class="bar-title">HTML</p>
+                    <div class="bar">
+                        <div class="bar-inner5"></div>
+                    </div>
+
+                    <p class="bar-title">CSS</p>
+                    <div class="bar">
+                        <div class="bar-inner6"></div>
+                    </div>
+
+                    <p class="bar-title">Java Script</p>
+                    <div class="bar">
+                        <div class="bar-inner7"></div>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <ul class="experience"><h1>Experience</h1>
+                    <br><li class="dates">Sep 2015 - Present</li >
+                    <li  class="positionA">Instructor</li >
+                    <li  class="company">Eare Art Studio</li >
+                    <br><span class="description">teach art school-oriented stydents how to express color
+                    <br> harmoniously, how to express texture and synesthesia, and 
+                    <br>techniques and methods that can be done according to
+                    <br> materials such as pencils, watercolors, acrylic painting, etc. Not
+                    <br> only how to express pictures, but also how to produce,
+                    <br> appreciate, and understand the fine arts.</span>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul class="expertise-title"><h1>Expertise</h1>
+                    <li class="expertise">User Research</li>
+                    <li class="expertise">Qualitive Testing</li>
+                    <li class="expertise">Brand Identity</li>
+                    <li class="expertise">Website Design</li>
+                    <li class="expertise">Mobile Design</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul class="personalvalues-title"><h1>Personal Values</h1>
+                    <li class="personalvalues">Creativity</li>
+                    <li class="personalvalues">Responsibility</li>
+                    <li class="personalvalues">Rationality</li>
+                    <li class="personalvalues">Dedication</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!--footer-->
+<footer>
+    <ul class="menu">
+        <li>WORKS</li>
+        <li>SKILLS</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+    </ul>
+    <div class=icons>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
